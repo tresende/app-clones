@@ -7,8 +7,8 @@ import * as S from './styles'
 const Header = () => (
   <S.Container>
     <S.Top>
-      <S.Logo />
-      <S.Title>Hello!</S.Title>
+      <S.Logo source={Logo} />
+      <S.Title>Thiago Resende</S.Title>
     </S.Top>
     <Icon name="keyboard-arrow-down" size={20} color="#FFF" />
   </S.Container>
